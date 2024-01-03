@@ -4,6 +4,7 @@
 *.json
 *.pkl
 *.feather
+.gitignore
 
 # Large files
 *.zip
@@ -21,6 +22,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea
 
 # Jupyter Notebook
 .ipynb_checkpoints
