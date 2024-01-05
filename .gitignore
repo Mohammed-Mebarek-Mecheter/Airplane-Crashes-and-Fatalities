@@ -1,18 +1,19 @@
 # Data files
 *.csv
-*.xlsx
-*.json
-*.pkl
-*.feather
+.xlsx
+.json
+.pkl
+.feather
+.txt
 .gitignore
 
 # Large files
-*.zip
-*.7z
-*.tar.gz
+.zip
+.7z
+.tar.gz
 
 # Log files
-*.log
+.log
 
 # Environment variables
 .env
@@ -46,10 +47,14 @@ parts/
 sdist/
 var/
 wheels/
-*.egg-info/
+.egg-info/
 .installed.cfg
-*.egg
+.egg
 MANIFEST
 
 # PySpark
 .ipynb_checkpoints
+
+# Other system or IDE-specific files
+.DS_Store
+Thumbs.db
